@@ -110,9 +110,11 @@ Tests unitarios / de integración (frontend y backend)
 Deployment: desplegar en un servidor o plataforma en la nube
 
 📄 Licencia & Autores
-Este proyecto fue desarrollado por tu nombre o alias. Puedes adaptarlo o usarlo como base para otros proyectos.
+
+Este proyecto fue desarrollado por tu Joan Guio (SNaoj). Puedes adaptarlo o usarlo como base para otros proyectos.
 
 📝 Cómo contribuir
+
 Si deseas aportar, puedes:
 
 Hacer fork del repositorio
