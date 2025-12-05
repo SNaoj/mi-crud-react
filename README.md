@@ -24,31 +24,9 @@ Ideal para aprender el flujo completo de desarrollo web: frontend ↔ API ↔ ba
 - Tener instalado [Node.js + npm]  
 - Tener instalado [Docker] y [docker‑compose] (si usas contenedores para backend)  
 
-### 🔧 Instalación & puesta en marcha
-
-1. Clona el repositorio:
-
-```bash
-git clone https://github.com/SNaoj/mi-crud-react.git
-cd mi-crud-react
-Instalar dependencias del frontend:
-
-bash
-Copiar código
-npm install
-Levantar backend con Docker (si aplica):
-
-bash
-Copiar código
-docker-compose up -d
-Iniciar frontend:
-
-bash
-Copiar código
-npm run dev
-Abrir navegador en: http://localhost:5173/ (o la URL que indique Vite)
 
 🧪 Funcionalidades implementadas (CRUD)
+
 ✅ Listar usuarios
 
 ✅ Crear usuario
