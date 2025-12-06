@@ -29,21 +29,6 @@ Ideal para aprender el flujo completo de desarrollo web: frontend ↔ API ↔ ba
 
 ✅ Persistencia de sesión (login simulado) con Context + localStorage
 
-## 📂 Estructura del proyecto (simplificada)
-
-Copiar código
-mi-crud-react/
-├── src/
-│   ├── services/     # Lógica para consumir API (fetch)
-│   ├── contexts/     # Contextos de React (ej: AuthContext)
-│   ├── components/   # Componentes React reutilizables
-│   ├── pages/        # Páginas de la app (lista, edición, creación, etc.)
-│   └── App.jsx       # Punto de entrada de la app
-├── docker-compose.yml  # Configuración de Docker para backend/API (si aplica)
-├── package.json        # Dependencias del frontend
-└── README.md           # Este archivo
-(Ajusta según la estructura real de tu repo)
-
 ## 📈 Cómo probar la API manualmente
 Puedes usar herramientas como curl, Postman o tu frontend. Ejemplos con curl:
 
