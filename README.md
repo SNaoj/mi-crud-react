@@ -17,15 +17,7 @@ Ideal para aprender el flujo completo de desarrollo web: frontend ↔ API ↔ ba
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto localmente
-
-### 📝 Prerrequisitos
-
-- Tener instalado [Node.js + npm]  
-- Tener instalado [Docker] y [docker‑compose] (si usas contenedores para backend)  
-
-
-🧪 Funcionalidades implementadas (CRUD)
+## 🧪 Funcionalidades implementadas (CRUD)
 
 ✅ Listar usuarios
 
@@ -37,8 +29,8 @@ Ideal para aprender el flujo completo de desarrollo web: frontend ↔ API ↔ ba
 
 ✅ Persistencia de sesión (login simulado) con Context + localStorage
 
-📂 Estructura del proyecto (simplificada)
-graphql
+## 📂 Estructura del proyecto (simplificada)
+
 Copiar código
 mi-crud-react/
 ├── src/
@@ -52,27 +44,29 @@ mi-crud-react/
 └── README.md           # Este archivo
 (Ajusta según la estructura real de tu repo)
 
-📈 Cómo probar la API manualmente
+## 📈 Cómo probar la API manualmente
 Puedes usar herramientas como curl, Postman o tu frontend. Ejemplos con curl:
 
 bash
 Copiar código
-# Listar usuarios
+### Listar usuarios
 curl http://localhost:8080/api/users
 
-# Crear usuario
+### Crear usuario
 curl -X POST http://localhost:8080/api/users \
   -H "Content-Type: application/json" \
   -d '{"name":"Juan","email":"juan@example.com","password":"123456"}'
 
-# Actualizar usuario (id = 1)
+### Actualizar usuario (id = 1)
 curl -X PUT http://localhost:8080/api/users/1 \
   -H "Content-Type: application/json" \
   -d '{"name":"NuevoNombre"}'
 
-# Eliminar usuario (id = 1)
+### Eliminar usuario (id = 1)
 curl -X DELETE http://localhost:8080/api/users/1
-✅ Qué falta / posibles mejoras
+
+## ✅ Qué falta / posibles mejoras
+
 Autenticación real contra la API (en lugar de login simulado)
 
 Manejo de errores en el frontend (mensajes claros al usuario)
@@ -87,11 +81,11 @@ Tests unitarios / de integración (frontend y backend)
 
 Deployment: desplegar en un servidor o plataforma en la nube
 
-📄 Licencia & Autores
+## 📄 Licencia & Autores
 
 Este proyecto fue desarrollado por tu Joan Guio (SNaoj). Puedes adaptarlo o usarlo como base para otros proyectos.
 
-📝 Cómo contribuir
+## 📝 Cómo contribuir
 
 Si deseas aportar, puedes:
 
